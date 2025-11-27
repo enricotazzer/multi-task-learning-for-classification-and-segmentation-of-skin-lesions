@@ -4,6 +4,9 @@
 /dataset.zip
 /segmentation_labels.csv
 /mutlitask_dataset.zip
-/mutlitask_dataset
+/multitask_dataset
 /analyse.ipynb
 /multitask_resnet50.pth
+/multitasked_dataset_mixed
+/create_dataset.ipynb
+/project-summary.pdf
