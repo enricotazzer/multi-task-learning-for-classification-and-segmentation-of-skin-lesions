@@ -3,7 +3,7 @@
 /dataset
 /dataset.zip
 /segmentation_labels.csv
-/mutlitask_dataset.zip
+/multitask_dataset.zip
 /multitask_dataset
 /analyse.ipynb
 /multitask_resnet50.pth
@@ -21,3 +21,12 @@
 /sample_image_begnign.jpg
 /sample_image_malign.jpg
 /paper_images
+/future_works
+/generated_masks
+/multitask_fully_labeled
+/multitask_fully_labeled.zip
+/note.md
+/paper.tex
+/worklog.md
+/dataset_class_distribution.ipynb
+/utilities/baseline_evaluation.ipynb

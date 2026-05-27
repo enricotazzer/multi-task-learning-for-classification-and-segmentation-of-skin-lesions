@@ -1,0 +1,42 @@
+{
+  "test_metrics": {
+    "classification_loss": 1.4402896779107637,
+    "segmentation_loss": 0.08937323429850559,
+    "segmentation_dice": 0.9208208380273469,
+    "segmentation_mean_iou": 0.8696278521346386,
+    "segmentation_pixel_accuracy": 0.9647383080070261,
+    "classification_accuracy": 0.8230968858095887,
+    "classification_precision": 0.7438326478004456,
+    "classification_recall": 0.7301408648490906,
+    "classification_f1": 0.7234378457069397,
+    "classification_sensitivity": 0.7301408648490906,
+    "classification_specificity": 0.9611416459083557
+  },
+  "inference_latency": {
+    "Classification only": {
+      "batch_mean_ms": 104.53748941421509,
+      "batch_std_ms": 0.648549841764696,
+      "per_img_mean_ms": 6.533593088388443,
+      "per_img_std_ms": 0.0405343651102935,
+      "fps": 153.05513925824496
+    },
+    "Segmentation only": {
+      "batch_mean_ms": 61.357011795043945,
+      "batch_std_ms": 0.6073877328823496,
+      "per_img_mean_ms": 7.669626474380493,
+      "per_img_std_ms": 0.0759234666102937,
+      "fps": 130.38444614485272
+    },
+    "Combined (both)": {
+      "batch_mean_ms": 104.57249164581299,
+      "batch_std_ms": 0.6944952926921484,
+      "per_img_mean_ms": 6.535780727863312,
+      "per_img_std_ms": 0.043405955793259274,
+      "fps": 153.00390904131842
+    }
+  },
+  "num_parameters": 32350473,
+  "num_parameters_M": 32.35,
+  "trainable_parameters": 32125129,
+  "non_trainable_parameters": 225344
+}

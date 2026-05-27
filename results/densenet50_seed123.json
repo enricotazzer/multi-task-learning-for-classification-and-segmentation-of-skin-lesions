@@ -1,0 +1,23 @@
+{
+  "model": "DenseNet-50",
+  "seed": 123,
+  "num_parameters": 3646143,
+  "num_parameters_M": 3.646,
+  "test_metrics": {
+    "loss": 0.9025402445542184,
+    "accuracy": 0.7872340425531915,
+    "sensitivity": 0.5052070933246424,
+    "specificity": 0.9363535292640413
+  },
+  "inference_latency": {
+    "device": "cuda",
+    "batch_size": 32,
+    "warmup_runs": 10,
+    "timed_runs": 100,
+    "batch_mean_ms": 52.278504371643066,
+    "batch_std_ms": 0.6402467742138117,
+    "per_img_mean_ms": 1.6337032616138458,
+    "per_img_std_ms": 0.020007711694181616,
+    "fps": 612.106264029953
+  }
+}

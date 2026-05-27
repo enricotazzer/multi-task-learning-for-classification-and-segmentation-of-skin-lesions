@@ -1,0 +1,27 @@
+{
+  "model": "DeepLabV3-ResNet50",
+  "seed": 69,
+  "num_parameters": 41994308,
+  "num_parameters_M": 41.994,
+  "test_metrics": {
+    "loss": 0.11578302533001048,
+    "pixel_accuracy": 0.9550070817026348,
+    "mean_iou": 0.823231759708991,
+    "dice": 0.9030467523672233,
+    "per_class_iou": {
+      "background": 0.9430802522888374,
+      "lesion": 0.823231759708991
+    }
+  },
+  "inference_latency": {
+    "device": "cuda",
+    "batch_size": 4,
+    "warmup_runs": 10,
+    "timed_runs": 50,
+    "batch_mean_ms": 100.2721357345581,
+    "batch_std_ms": 0.8739167171954029,
+    "per_img_mean_ms": 25.068033933639526,
+    "per_img_std_ms": 0.21847917929885072,
+    "fps": 39.89144113364514
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "model": "ResNet-50",
+  "seed": 123,
+  "num_parameters": 23522375,
+  "num_parameters_M": 23.522,
+  "test_metrics": {
+    "loss": 0.6869540562287958,
+    "accuracy": 0.8958566629339306,
+    "sensitivity": 0.8124917067190759,
+    "specificity": 0.9682904249532169
+  },
+  "inference_latency": {
+    "device": "cuda",
+    "batch_size": 32,
+    "warmup_runs": 10,
+    "timed_runs": 100,
+    "batch_mean_ms": 113.71155977249146,
+    "batch_std_ms": 43.149091670890456,
+    "per_img_mean_ms": 3.553486242890358,
+    "per_img_std_ms": 1.3484091147153268,
+    "fps": 281.41378118481566
+  }
+}
