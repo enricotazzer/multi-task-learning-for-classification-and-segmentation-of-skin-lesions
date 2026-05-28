@@ -30,3 +30,4 @@
 /worklog.md
 /dataset_class_distribution.ipynb
 /utilities/baseline_evaluation.ipynb
+/utilities/convnext_v2_classifier.pth
