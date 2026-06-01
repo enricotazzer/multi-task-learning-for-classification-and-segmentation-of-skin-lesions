@@ -1,0 +1,14 @@
+{
+  "model": "ResNet-50",
+  "seed": 69,
+  "task": "binary_benign_vs_malignant",
+  "TP": 264,
+  "TN": 1388,
+  "FP": 40,
+  "FN": 94,
+  "accuracy": 0.9249720044792833,
+  "precision": 0.868421052631579,
+  "recall": 0.7374301675977654,
+  "specificity": 0.9719887955182073,
+  "f1_score": 0.7975830815709969
+}

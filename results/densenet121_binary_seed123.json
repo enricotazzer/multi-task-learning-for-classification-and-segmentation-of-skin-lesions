@@ -1,0 +1,14 @@
+{
+  "model": "DenseNet-121",
+  "seed": 123,
+  "task": "binary_benign_vs_malignant",
+  "TP": 277,
+  "TN": 1369,
+  "FP": 59,
+  "FN": 81,
+  "accuracy": 0.921612541993281,
+  "precision": 0.8244047619047619,
+  "recall": 0.7737430167597765,
+  "specificity": 0.9586834733893558,
+  "f1_score": 0.7982708933717578
+}
