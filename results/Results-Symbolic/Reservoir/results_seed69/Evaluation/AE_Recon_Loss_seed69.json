@@ -1,0 +1,7 @@
+{
+  "69": {
+    "source_checkpoint": "C:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\Reservoir\\results_seed69\\Models\\binaryconvautoencoder-v4_seed69_best.pth",
+    "recon_loss_train": 0.0217787298796704,
+    "recon_loss_test": 0.01898497851115876
+  }
+}

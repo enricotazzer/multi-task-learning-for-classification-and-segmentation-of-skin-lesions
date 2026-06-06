@@ -1,0 +1,33 @@
+{
+  "Solver": "clingo version 5.8.0 (6d1efb6)",
+  "Input": [
+    "/mnt/c/Users/Admin/Desktop/Desktop/Uniud-Magistrale/SecondYear/LargeProject/Progetto-Medico/Github/Results/Reservoir/results_seed69/Evaluation/Clingo/rules_seed69.lp","/mnt/c/Users/Admin/Desktop/Desktop/Uniud-Magistrale/SecondYear/LargeProject/Progetto-Medico/Github/Results/Reservoir/results_seed69/Evaluation/Timing_Facts/facts_test_batch01.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 0.128,
+          "Value": [
+            "diagnosis(img_263,positive)", "diagnosis(img_279,positive)", "diagnosis(img_290,positive)", "diagnosis(img_293,positive)", "diagnosis(img_307,positive)", "diagnosis(img_341,positive)", "diagnosis(img_348,positive)", "diagnosis(img_362,positive)", "diagnosis(img_367,positive)", "diagnosis(img_371,positive)", "diagnosis(img_375,positive)", "diagnosis(img_379,positive)", "diagnosis(img_281,positive)", "diagnosis(img_316,positive)", "diagnosis(img_333,positive)", "diagnosis(img_334,positive)", "diagnosis(img_350,positive)", "diagnosis(img_285,positive)", "diagnosis(img_299,positive)", "diagnosis(img_309,positive)", "diagnosis(img_317,positive)", "diagnosis(img_320,positive)", "diagnosis(img_324,positive)", "diagnosis(img_359,positive)", "diagnosis(img_258,positive)", "diagnosis(img_259,positive)", "diagnosis(img_321,positive)", "diagnosis(img_329,positive)", "diagnosis(img_330,positive)", "diagnosis(img_349,positive)", "diagnosis(img_372,positive)", "diagnosis(img_373,positive)", "diagnosis(img_374,positive)", "diagnosis(img_275,positive)", "diagnosis(img_339,positive)", "diagnosis(img_331,positive)", "diagnosis(img_354,positive)", "diagnosis(img_360,positive)", "diagnosis(img_355,positive)", "diagnosis(img_256,negative)", "diagnosis(img_257,negative)", "diagnosis(img_260,negative)", "diagnosis(img_261,negative)", "diagnosis(img_262,negative)", "diagnosis(img_264,negative)", "diagnosis(img_265,negative)", "diagnosis(img_266,negative)", "diagnosis(img_267,negative)", "diagnosis(img_268,negative)", "diagnosis(img_269,negative)", "diagnosis(img_270,negative)", "diagnosis(img_271,negative)", "diagnosis(img_272,negative)", "diagnosis(img_273,negative)", "diagnosis(img_274,negative)", "diagnosis(img_276,negative)", "diagnosis(img_277,negative)", "diagnosis(img_278,negative)", "diagnosis(img_280,negative)", "diagnosis(img_282,negative)", "diagnosis(img_283,negative)", "diagnosis(img_284,negative)", "diagnosis(img_286,negative)", "diagnosis(img_287,negative)", "diagnosis(img_288,negative)", "diagnosis(img_289,negative)", "diagnosis(img_291,negative)", "diagnosis(img_292,negative)", "diagnosis(img_294,negative)", "diagnosis(img_295,negative)", "diagnosis(img_296,negative)", "diagnosis(img_297,negative)", "diagnosis(img_298,negative)", "diagnosis(img_300,negative)", "diagnosis(img_301,negative)", "diagnosis(img_302,negative)", "diagnosis(img_303,negative)", "diagnosis(img_304,negative)", "diagnosis(img_305,negative)", "diagnosis(img_306,negative)", "diagnosis(img_308,negative)", "diagnosis(img_310,negative)", "diagnosis(img_311,negative)", "diagnosis(img_312,negative)", "diagnosis(img_313,negative)", "diagnosis(img_314,negative)", "diagnosis(img_315,negative)", "diagnosis(img_318,negative)", "diagnosis(img_319,negative)", "diagnosis(img_322,negative)", "diagnosis(img_323,negative)", "diagnosis(img_325,negative)", "diagnosis(img_326,negative)", "diagnosis(img_327,negative)", "diagnosis(img_328,negative)", "diagnosis(img_332,negative)", "diagnosis(img_335,negative)", "diagnosis(img_336,negative)", "diagnosis(img_337,negative)", "diagnosis(img_338,negative)", "diagnosis(img_340,negative)", "diagnosis(img_342,negative)", "diagnosis(img_343,negative)", "diagnosis(img_344,negative)", "diagnosis(img_345,negative)", "diagnosis(img_346,negative)", "diagnosis(img_347,negative)", "diagnosis(img_351,negative)", "diagnosis(img_352,negative)", "diagnosis(img_353,negative)", "diagnosis(img_356,negative)", "diagnosis(img_357,negative)", "diagnosis(img_358,negative)", "diagnosis(img_361,negative)", "diagnosis(img_363,negative)", "diagnosis(img_364,negative)", "diagnosis(img_365,negative)", "diagnosis(img_366,negative)", "diagnosis(img_368,negative)", "diagnosis(img_369,negative)", "diagnosis(img_370,negative)", "diagnosis(img_376,negative)", "diagnosis(img_377,negative)", "diagnosis(img_378,negative)", "diagnosis(img_380,negative)", "diagnosis(img_381,negative)", "diagnosis(img_382,negative)", "diagnosis(img_383,negative)"
+          ]
+        }
+      ],
+      "Stop": 0.128
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 1,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.128,
+    "Solve": 0.001,
+    "Model": 0.000,
+    "Unsat": 0.001,
+    "CPU": 0.102
+  }
+}

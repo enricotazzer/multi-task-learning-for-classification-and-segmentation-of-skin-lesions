@@ -1,0 +1,50 @@
+{
+  "experiment": "asp_clingo_no_calibrator",
+  "in_dir": "c:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\Reservoir\\results_seed123\\Seed123_Feat",
+  "out_dir": "c:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\Reservoir\\results_seed123\\Evaluation",
+  "n_samples": 2312,
+  "accuracy": 0.6453287197231834,
+  "confusion_matrix": [
+    [
+      1179,
+      708
+    ],
+    [
+      112,
+      313
+    ]
+  ],
+  "classification_report": {
+    "negative": {
+      "precision": 0.9132455460883037,
+      "recall": 0.6248012718600954,
+      "f1-score": 0.7419760855884204,
+      "support": 1887.0
+    },
+    "positive": {
+      "precision": 0.30656219392752204,
+      "recall": 0.7364705882352941,
+      "f1-score": 0.43291839557399725,
+      "support": 425.0
+    },
+    "accuracy": 0.6453287197231834,
+    "macro avg": {
+      "precision": 0.6099038700079129,
+      "recall": 0.6806359300476947,
+      "f1-score": 0.5874472405812088,
+      "support": 2312.0
+    },
+    "weighted avg": {
+      "precision": 0.8017228710587483,
+      "recall": 0.6453287197231834,
+      "f1-score": 0.685164010218122,
+      "support": 2312.0
+    }
+  },
+  "extra": {
+    "clingo_json": "c:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\Reservoir\\results_seed123\\Evaluation\\Clingo\\clingo_output_seed123_test.json",
+    "rules_path": "c:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\Reservoir\\results_seed123\\Evaluation\\Clingo\\rules_seed123.lp",
+    "valid_predictions": 2312,
+    "missing_predictions": 0
+  }
+}
