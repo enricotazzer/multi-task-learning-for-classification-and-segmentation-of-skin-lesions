@@ -1,0 +1,48 @@
+{
+  "experiment": "calibrated_logreg",
+  "in_dir": "c:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\NoReservoir\\results_seed42\\Seed42_Feat",
+  "out_dir": "c:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\NoReservoir\\results_seed42\\Evaluation",
+  "n_samples": 2312,
+  "accuracy": 0.5198961937716263,
+  "confusion_matrix": [
+    [
+      817,
+      1070
+    ],
+    [
+      40,
+      385
+    ]
+  ],
+  "classification_report": {
+    "negative": {
+      "precision": 0.9533255542590432,
+      "recall": 0.43296237413884475,
+      "f1-score": 0.5954810495626822,
+      "support": 1887.0
+    },
+    "positive": {
+      "precision": 0.2646048109965636,
+      "recall": 0.9058823529411765,
+      "f1-score": 0.4095744680851064,
+      "support": 425.0
+    },
+    "accuracy": 0.5198961937716263,
+    "macro avg": {
+      "precision": 0.6089651826278034,
+      "recall": 0.6694223635400106,
+      "f1-score": 0.5025277588238943,
+      "support": 2312.0
+    },
+    "weighted avg": {
+      "precision": 0.8267224764534403,
+      "recall": 0.5198961937716263,
+      "f1-score": 0.5613070456145984,
+      "support": 2312.0
+    }
+  },
+  "extra": {
+    "threshold": 0.30000000000000004,
+    "val_f2": 0.6112026359143328
+  }
+}

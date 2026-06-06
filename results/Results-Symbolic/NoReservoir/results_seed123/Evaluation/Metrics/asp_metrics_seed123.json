@@ -1,0 +1,55 @@
+{
+  "task": "binary_macro_class",
+  "macro_classes": {
+    "negative": "benign (NV/BKL/DF/VASC)",
+    "positive": "malignant (MEL/BCC/AKIEC)"
+  },
+  "n_samples": 2312,
+  "n_valid": 2312,
+  "coverage_valid": 1.0,
+  "missing_predictions": 0,
+  "accuracy": 0.6288927335640139,
+  "macro_f1": 0.5801168402336805,
+  "weighted_f1": 0.6706122159303142,
+  "pred_distribution": {
+    "negative": 1213,
+    "positive": 1099
+  },
+  "classification_report": {
+    "negative": {
+      "precision": 0.9241549876339654,
+      "recall": 0.5940646528881823,
+      "f1-score": 0.7232258064516129,
+      "support": 1887.0
+    },
+    "positive": {
+      "precision": 0.30300272975432213,
+      "recall": 0.7835294117647059,
+      "f1-score": 0.43700787401574803,
+      "support": 425.0
+    },
+    "accuracy": 0.6288927335640139,
+    "macro avg": {
+      "precision": 0.6135788586941437,
+      "recall": 0.6887970323264441,
+      "f1-score": 0.5801168402336805,
+      "support": 2312.0
+    },
+    "weighted avg": {
+      "precision": 0.8099725872884428,
+      "recall": 0.6288927335640139,
+      "f1-score": 0.6706122159303142,
+      "support": 2312.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1121,
+      766
+    ],
+    [
+      92,
+      333
+    ]
+  ]
+}

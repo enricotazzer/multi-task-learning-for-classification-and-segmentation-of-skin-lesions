@@ -1,0 +1,51 @@
+{
+  "experiment": "gated_calibrator",
+  "in_dir": "c:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\NoReservoir\\results_seed123\\Seed123_Feat",
+  "out_dir": "c:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\NoReservoir\\results_seed123\\Evaluation",
+  "n_samples": 2312,
+  "accuracy": 0.6033737024221453,
+  "confusion_matrix": [
+    [
+      1042,
+      845
+    ],
+    [
+      72,
+      353
+    ]
+  ],
+  "classification_report": {
+    "negative": {
+      "precision": 0.9353680430879713,
+      "recall": 0.5521992580816111,
+      "f1-score": 0.6944351882705765,
+      "support": 1887.0
+    },
+    "positive": {
+      "precision": 0.29465776293823037,
+      "recall": 0.8305882352941176,
+      "f1-score": 0.4349969192852742,
+      "support": 425.0
+    },
+    "accuracy": 0.6033737024221453,
+    "macro avg": {
+      "precision": 0.6150129030131009,
+      "recall": 0.6913937466878644,
+      "f1-score": 0.5647160537779253,
+      "support": 2312.0
+    },
+    "weighted avg": {
+      "precision": 0.8175904180604453,
+      "recall": 0.6033737024221453,
+      "f1-score": 0.6467443300012194,
+      "support": 2312.0
+    }
+  },
+  "extra": {
+    "threshold": 0.45000000000000007,
+    "val_precision": 0.27512776831345825,
+    "val_recall": 0.8014888337468983,
+    "target_recall": 0.8,
+    "flipped_test_predictions": 99
+  }
+}

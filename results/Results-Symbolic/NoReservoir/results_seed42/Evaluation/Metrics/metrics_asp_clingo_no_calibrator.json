@@ -1,0 +1,50 @@
+{
+  "experiment": "asp_clingo_no_calibrator",
+  "in_dir": "c:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\NoReservoir\\results_seed42\\Seed42_Feat",
+  "out_dir": "c:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\NoReservoir\\results_seed42\\Evaluation",
+  "n_samples": 2312,
+  "accuracy": 0.6094290657439446,
+  "confusion_matrix": [
+    [
+      1061,
+      826
+    ],
+    [
+      77,
+      348
+    ]
+  ],
+  "classification_report": {
+    "negative": {
+      "precision": 0.9323374340949033,
+      "recall": 0.5622681505034446,
+      "f1-score": 0.7014876033057851,
+      "support": 1887.0
+    },
+    "positive": {
+      "precision": 0.29642248722316866,
+      "recall": 0.8188235294117647,
+      "f1-score": 0.4352720450281426,
+      "support": 425.0
+    },
+    "accuracy": 0.6094290657439446,
+    "macro avg": {
+      "precision": 0.614379960659036,
+      "recall": 0.6905458399576047,
+      "f1-score": 0.5683798241669639,
+      "support": 2312.0
+    },
+    "weighted avg": {
+      "precision": 0.8154413041552462,
+      "recall": 0.6094290657439446,
+      "f1-score": 0.6525509197988655,
+      "support": 2312.0
+    }
+  },
+  "extra": {
+    "clingo_json": "c:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\NoReservoir\\results_seed42\\Evaluation\\Clingo\\clingo_output_seed42_test.json",
+    "rules_path": "c:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\NoReservoir\\results_seed42\\Evaluation\\Clingo\\rules_seed42.lp",
+    "valid_predictions": 2312,
+    "missing_predictions": 0
+  }
+}

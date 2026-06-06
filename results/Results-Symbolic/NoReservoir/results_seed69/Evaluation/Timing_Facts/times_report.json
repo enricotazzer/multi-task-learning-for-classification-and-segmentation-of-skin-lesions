@@ -1,0 +1,33 @@
+{
+  "split": "test",
+  "batch_size": 128,
+  "n_batches": 5,
+  "Preprocess_Clingo": {
+    "batch_results": {
+      "0": {
+        "n_images": 128,
+        "time": "131.341ms"
+      },
+      "1": {
+        "n_images": 128,
+        "time": "133.805ms"
+      },
+      "2": {
+        "n_images": 128,
+        "time": "150.602ms"
+      },
+      "3": {
+        "n_images": 128,
+        "time": "130.756ms"
+      },
+      "4": {
+        "n_images": 128,
+        "time": "131.386ms"
+      }
+    },
+    "average": {
+      "time per image": "1.059ms",
+      "time per batch": "135.578ms"
+    }
+  }
+}

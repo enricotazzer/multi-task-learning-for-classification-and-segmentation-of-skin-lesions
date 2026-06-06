@@ -1,0 +1,7 @@
+{
+  "123": {
+    "source_checkpoint": "C:\\Users\\Admin\\Desktop\\Desktop\\Uniud-Magistrale\\SecondYear\\LargeProject\\Progetto-Medico\\Github\\Results\\NoReservoir\\results_seed123\\Models\\binaryconvautoencoder-v4_seed123_best.pth",
+    "recon_loss_train": 0.02905855309328711,
+    "recon_loss_test": 0.025825410272026884
+  }
+}
