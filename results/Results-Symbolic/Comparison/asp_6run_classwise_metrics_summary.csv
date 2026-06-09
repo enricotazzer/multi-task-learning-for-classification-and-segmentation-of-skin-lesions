@@ -1,0 +1,5 @@
+version,class,precision,recall_class_accuracy,f1,support
+NoReservoir,negative,0.926 +/- 0.005,0.590 +/- 0.026,0.721 +/- 0.018,1887.0 +/- 0.0
+NoReservoir,positive,0.303 +/- 0.007,0.791 +/- 0.024,0.439 +/- 0.004,425.0 +/- 0.0
+Reservoir,negative,0.912 +/- 0.008,0.642 +/- 0.040,0.753 +/- 0.024,1887.0 +/- 0.0
+Reservoir,positive,0.313 +/- 0.011,0.722 +/- 0.046,0.437 +/- 0.003,425.0 +/- 0.0
