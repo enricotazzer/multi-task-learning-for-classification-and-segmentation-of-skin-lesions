@@ -1,0 +1,1132 @@
+{
+  "runs": [
+    {
+      "schema_version": 1,
+      "created_at": "2026-06-11T00:42:32",
+      "version": "NoReservoir",
+      "seed": 42,
+      "run_id": "results_seed42",
+      "checkpoint_files": {
+        "best_full": {
+          "file_name": "binaryconvautoencoder-v4_seed42_best_full.pth",
+          "exists": true,
+          "size_bytes": 2513676,
+          "modified_at": "2026-06-03T11:51:50"
+        },
+        "best_partial": {
+          "file_name": "binaryconvautoencoder-v4_seed42_best.pth",
+          "exists": true,
+          "size_bytes": 1793743,
+          "modified_at": "2026-06-03T11:51:50"
+        },
+        "last_full": {
+          "file_name": "binaryconvautoencoder-v4_seed42_last_full.pth",
+          "exists": true,
+          "size_bytes": 2513165,
+          "modified_at": "2026-06-03T11:51:50"
+        },
+        "selected_for_parameter_count_file": "binaryconvautoencoder-v4_seed42_best_full.pth"
+      },
+      "checkpoint_parameter_stats": {
+        "checkpoint_file": {
+          "file_name": "binaryconvautoencoder-v4_seed42_best_full.pth",
+          "exists": true,
+          "size_bytes": 2513676,
+          "modified_at": "2026-06-03T11:51:50"
+        },
+        "available": true,
+        "checkpoint_type": "dict",
+        "checkpoint_epoch": 29,
+        "contains_optimizer_state": true,
+        "model_state_tensors": 27,
+        "model_parameter_count_from_state_dict": 445839,
+        "aux_head_tensors": 4,
+        "aux_head_parameter_count_from_state_dict": 8578,
+        "model_plus_aux_parameter_count": 454417,
+        "sample_tensor_shapes": {
+          "input_lift.weight": [
+            64,
+            3,
+            3,
+            3
+          ],
+          "encoder_cells.0.alpha": [],
+          "encoder_cells.0.beta": [],
+          "encoder_cells.0.template_state": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.0.template_input": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.1.alpha": [],
+          "encoder_cells.1.beta": [],
+          "encoder_cells.1.template_state": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.1.template_input": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.2.alpha": [],
+          "encoder_cells.2.beta": [],
+          "encoder_cells.2.template_state": [
+            64,
+            64,
+            3,
+            3
+          ]
+        },
+        "inferred_latent_channels": 64,
+        "inferred_input_channels": 3,
+        "inferred_encoder_depth": 3,
+        "inferred_decoder_depth": 3
+      },
+      "history": {
+        "history_file": {
+          "file_name": "binaryconvautoencoder-v4_seed42_history.json",
+          "exists": true,
+          "size_bytes": 895,
+          "modified_at": "2026-06-03T11:51:50"
+        },
+        "available": true,
+        "epochs_recorded": 2,
+        "first_recorded_epoch": 29,
+        "last_recorded_epoch": 30,
+        "last_record": {
+          "epoch": 30,
+          "train_total": 0.17145649815746514,
+          "train_recon": 0.017242740226207573,
+          "train_mask": 0.1822337146284672,
+          "train_den": 0.020205001234842427,
+          "train_cls": 0.5837838106321652,
+          "train_sym": 0.0,
+          "val_total": 0.16596497194520357,
+          "val_recon": 0.014604128344819464,
+          "val_mask": 0.17634412615463652,
+          "val_den": 0.02083887444359475,
+          "val_cls": 0.5752503645831141,
+          "val_sym": 0.0
+        },
+        "best_train_total": {
+          "epoch": 30,
+          "value": 0.17145649815746514
+        },
+        "best_train_recon": {
+          "epoch": 30,
+          "value": 0.017242740226207573
+        },
+        "best_train_den": {
+          "epoch": 29,
+          "value": 0.017939660258768045
+        },
+        "best_train_cls": {
+          "epoch": 30,
+          "value": 0.5837838106321652
+        },
+        "best_val_total": {
+          "epoch": 29,
+          "value": 0.1659549834913221
+        },
+        "best_val_recon": {
+          "epoch": 30,
+          "value": 0.014604128344819464
+        },
+        "best_val_den": {
+          "epoch": 29,
+          "value": 0.019685404567882932
+        },
+        "best_val_cls": {
+          "epoch": 29,
+          "value": 0.5738602340221405
+        },
+        "training_time_seconds": null,
+        "training_time_source": "not available in current history JSON",
+        "numeric_keys_seen": [
+          "epoch",
+          "train_cls",
+          "train_den",
+          "train_mask",
+          "train_recon",
+          "train_sym",
+          "train_total",
+          "val_cls",
+          "val_den",
+          "val_mask",
+          "val_recon",
+          "val_sym",
+          "val_total"
+        ]
+      },
+      "reconstruction_loss": {
+        "file": {
+          "file_name": "AE_Recon_Loss_seed42.json",
+          "exists": true,
+          "size_bytes": 332,
+          "modified_at": "2026-06-05T17:09:41"
+        },
+        "data": {
+          "42": {
+            "source_checkpoint_file": "binaryconvautoencoder-v4_seed42_best.pth",
+            "recon_loss_train": 0.01725131939013298,
+            "recon_loss_test": 0.015392264145715484
+          }
+        }
+      },
+      "notes": {
+        "training_time": "Current history JSONs do not contain wall-clock training duration; add epoch timing during training to populate training_time_seconds.",
+        "parameter_count": "Parameter counts are from checkpoint tensors. Trainable parameter count requires model construction with requires_grad flags and is not inferable from a plain state_dict alone."
+      }
+    },
+    {
+      "schema_version": 1,
+      "created_at": "2026-06-11T00:42:32",
+      "version": "NoReservoir",
+      "seed": 69,
+      "run_id": "results_seed69",
+      "checkpoint_files": {
+        "best_full": {
+          "file_name": "binaryconvautoencoder-v4_seed69_best_full.pth",
+          "exists": true,
+          "size_bytes": 2513676,
+          "modified_at": "2026-06-04T14:48:40"
+        },
+        "best_partial": {
+          "file_name": "binaryconvautoencoder-v4_seed69_best.pth",
+          "exists": true,
+          "size_bytes": 1793743,
+          "modified_at": "2026-06-04T14:48:40"
+        },
+        "last_full": {
+          "file_name": "binaryconvautoencoder-v4_seed69_last_full.pth",
+          "exists": true,
+          "size_bytes": 2513165,
+          "modified_at": "2026-06-04T14:48:40"
+        },
+        "selected_for_parameter_count_file": "binaryconvautoencoder-v4_seed69_best_full.pth"
+      },
+      "checkpoint_parameter_stats": {
+        "checkpoint_file": {
+          "file_name": "binaryconvautoencoder-v4_seed69_best_full.pth",
+          "exists": true,
+          "size_bytes": 2513676,
+          "modified_at": "2026-06-04T14:48:40"
+        },
+        "available": true,
+        "checkpoint_type": "dict",
+        "checkpoint_epoch": 28,
+        "contains_optimizer_state": true,
+        "model_state_tensors": 27,
+        "model_parameter_count_from_state_dict": 445839,
+        "aux_head_tensors": 4,
+        "aux_head_parameter_count_from_state_dict": 8578,
+        "model_plus_aux_parameter_count": 454417,
+        "sample_tensor_shapes": {
+          "input_lift.weight": [
+            64,
+            3,
+            3,
+            3
+          ],
+          "encoder_cells.0.alpha": [],
+          "encoder_cells.0.beta": [],
+          "encoder_cells.0.template_state": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.0.template_input": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.1.alpha": [],
+          "encoder_cells.1.beta": [],
+          "encoder_cells.1.template_state": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.1.template_input": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.2.alpha": [],
+          "encoder_cells.2.beta": [],
+          "encoder_cells.2.template_state": [
+            64,
+            64,
+            3,
+            3
+          ]
+        },
+        "inferred_latent_channels": 64,
+        "inferred_input_channels": 3,
+        "inferred_encoder_depth": 3,
+        "inferred_decoder_depth": 3
+      },
+      "history": {
+        "history_file": {
+          "file_name": "binaryconvautoencoder-v4_seed69_history.json",
+          "exists": true,
+          "size_bytes": 1344,
+          "modified_at": "2026-06-04T14:48:40"
+        },
+        "available": true,
+        "epochs_recorded": 3,
+        "first_recorded_epoch": 28,
+        "last_recorded_epoch": 30,
+        "last_record": {
+          "epoch": 30,
+          "train_total": 0.17203290700824042,
+          "train_recon": 0.02247839026810817,
+          "train_mask": 0.17447335919702442,
+          "train_den": 0.02262306138624379,
+          "train_cls": 0.5676434445540346,
+          "train_sym": 0.0,
+          "val_total": 0.1633102873789853,
+          "val_recon": 0.017956266044799624,
+          "val_mask": 0.1652435327398366,
+          "val_den": 0.025982544917998642,
+          "val_cls": 0.5550309278841676,
+          "val_sym": 0.0
+        },
+        "best_train_total": {
+          "epoch": 29,
+          "value": 0.17170756147726707
+        },
+        "best_train_recon": {
+          "epoch": 29,
+          "value": 0.022173550825577107
+        },
+        "best_train_den": {
+          "epoch": 30,
+          "value": 0.02262306138624379
+        },
+        "best_train_cls": {
+          "epoch": 30,
+          "value": 0.5676434445540346
+        },
+        "best_val_total": {
+          "epoch": 28,
+          "value": 0.16330656388710285
+        },
+        "best_val_recon": {
+          "epoch": 28,
+          "value": 0.017846172206617633
+        },
+        "best_val_den": {
+          "epoch": 28,
+          "value": 0.02576961126178503
+        },
+        "best_val_cls": {
+          "epoch": 30,
+          "value": 0.5550309278841676
+        },
+        "training_time_seconds": null,
+        "training_time_source": "not available in current history JSON",
+        "numeric_keys_seen": [
+          "epoch",
+          "train_cls",
+          "train_den",
+          "train_mask",
+          "train_recon",
+          "train_sym",
+          "train_total",
+          "val_cls",
+          "val_den",
+          "val_mask",
+          "val_recon",
+          "val_sym",
+          "val_total"
+        ]
+      },
+      "reconstruction_loss": {
+        "file": {
+          "file_name": "AE_Recon_Loss_seed69.json",
+          "exists": true,
+          "size_bytes": 330,
+          "modified_at": "2026-06-05T14:23:39"
+        },
+        "data": {
+          "69": {
+            "source_checkpoint_file": "binaryconvautoencoder-v4_seed69_best.pth",
+            "recon_loss_train": 0.0217787298796704,
+            "recon_loss_test": 0.01898497851115876
+          }
+        }
+      },
+      "notes": {
+        "training_time": "Current history JSONs do not contain wall-clock training duration; add epoch timing during training to populate training_time_seconds.",
+        "parameter_count": "Parameter counts are from checkpoint tensors. Trainable parameter count requires model construction with requires_grad flags and is not inferable from a plain state_dict alone."
+      }
+    },
+    {
+      "schema_version": 1,
+      "created_at": "2026-06-11T00:42:32",
+      "version": "NoReservoir",
+      "seed": 123,
+      "run_id": "results_seed123",
+      "checkpoint_files": {
+        "best_full": {
+          "file_name": "binaryconvautoencoder-v4_seed123_best_full.pth",
+          "exists": true,
+          "size_bytes": 2513621,
+          "modified_at": "2026-06-03T16:03:56"
+        },
+        "best_partial": {
+          "file_name": "binaryconvautoencoder-v4_seed123_best.pth",
+          "exists": true,
+          "size_bytes": 1793776,
+          "modified_at": "2026-06-03T16:03:56"
+        },
+        "last_full": {
+          "file_name": "binaryconvautoencoder-v4_seed123_last_full.pth",
+          "exists": true,
+          "size_bytes": 2513037,
+          "modified_at": "2026-06-03T16:03:56"
+        },
+        "selected_for_parameter_count_file": "binaryconvautoencoder-v4_seed123_best_full.pth"
+      },
+      "checkpoint_parameter_stats": {
+        "checkpoint_file": {
+          "file_name": "binaryconvautoencoder-v4_seed123_best_full.pth",
+          "exists": true,
+          "size_bytes": 2513621,
+          "modified_at": "2026-06-03T16:03:56"
+        },
+        "available": true,
+        "checkpoint_type": "dict",
+        "checkpoint_epoch": 7,
+        "contains_optimizer_state": true,
+        "model_state_tensors": 27,
+        "model_parameter_count_from_state_dict": 445839,
+        "aux_head_tensors": 4,
+        "aux_head_parameter_count_from_state_dict": 8578,
+        "model_plus_aux_parameter_count": 454417,
+        "sample_tensor_shapes": {
+          "input_lift.weight": [
+            64,
+            3,
+            3,
+            3
+          ],
+          "encoder_cells.0.alpha": [],
+          "encoder_cells.0.beta": [],
+          "encoder_cells.0.template_state": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.0.template_input": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.1.alpha": [],
+          "encoder_cells.1.beta": [],
+          "encoder_cells.1.template_state": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.1.template_input": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.2.alpha": [],
+          "encoder_cells.2.beta": [],
+          "encoder_cells.2.template_state": [
+            64,
+            64,
+            3,
+            3
+          ]
+        },
+        "inferred_latent_channels": 64,
+        "inferred_input_channels": 3,
+        "inferred_encoder_depth": 3,
+        "inferred_decoder_depth": 3
+      },
+      "history": {
+        "history_file": {
+          "file_name": "binaryconvautoencoder-v4_seed123_history.json",
+          "exists": true,
+          "size_bytes": 5330,
+          "modified_at": "2026-06-03T16:03:56"
+        },
+        "available": true,
+        "epochs_recorded": 12,
+        "first_recorded_epoch": 1,
+        "last_recorded_epoch": 12,
+        "last_record": {
+          "epoch": 12,
+          "train_total": 0.2022771013552428,
+          "train_recon": 0.028544323980388194,
+          "train_mask": 0.20977988607009723,
+          "train_den": 0.10565354890612891,
+          "train_cls": 0.6324706005059647,
+          "train_sym": 0.0,
+          "val_total": 0.19431103426834634,
+          "val_recon": 0.023554659320105767,
+          "val_mask": 0.20695564006936962,
+          "val_den": 0.10284659924178288,
+          "val_cls": 0.6211145707245531,
+          "val_sym": 0.0
+        },
+        "best_train_total": {
+          "epoch": 8,
+          "value": 0.2001950569472964
+        },
+        "best_train_recon": {
+          "epoch": 11,
+          "value": 0.0283809499234757
+        },
+        "best_train_den": {
+          "epoch": 2,
+          "value": 0.02611633486636757
+        },
+        "best_train_cls": {
+          "epoch": 11,
+          "value": 0.6278796478531127
+        },
+        "best_val_total": {
+          "epoch": 7,
+          "value": 0.19325320237669452
+        },
+        "best_val_recon": {
+          "epoch": 12,
+          "value": 0.023554659320105767
+        },
+        "best_val_den": {
+          "epoch": 1,
+          "value": 0.025524841685747278
+        },
+        "best_val_cls": {
+          "epoch": 12,
+          "value": 0.6211145707245531
+        },
+        "training_time_seconds": null,
+        "training_time_source": "not available in current history JSON",
+        "numeric_keys_seen": [
+          "epoch",
+          "train_cls",
+          "train_den",
+          "train_mask",
+          "train_recon",
+          "train_sym",
+          "train_total",
+          "val_cls",
+          "val_den",
+          "val_mask",
+          "val_recon",
+          "val_sym",
+          "val_total"
+        ]
+      },
+      "reconstruction_loss": {
+        "file": {
+          "file_name": "AE_Recon_Loss_seed123.json",
+          "exists": true,
+          "size_bytes": 335,
+          "modified_at": "2026-06-05T15:45:34"
+        },
+        "data": {
+          "123": {
+            "source_checkpoint_file": "binaryconvautoencoder-v4_seed123_best.pth",
+            "recon_loss_train": 0.02905855309328711,
+            "recon_loss_test": 0.025825410272026884
+          }
+        }
+      },
+      "notes": {
+        "training_time": "Current history JSONs do not contain wall-clock training duration; add epoch timing during training to populate training_time_seconds.",
+        "parameter_count": "Parameter counts are from checkpoint tensors. Trainable parameter count requires model construction with requires_grad flags and is not inferable from a plain state_dict alone."
+      }
+    },
+    {
+      "schema_version": 1,
+      "created_at": "2026-06-11T00:42:32",
+      "version": "Reservoir",
+      "seed": 42,
+      "run_id": "results_seed42",
+      "checkpoint_files": {
+        "best_full": {
+          "file_name": "binaryconvautoencoder-v4_seed42_best_full.pth",
+          "exists": true,
+          "size_bytes": 2512581,
+          "modified_at": "2026-05-27T16:58:08"
+        },
+        "best_partial": {
+          "file_name": "binaryconvautoencoder-v4_seed42_best.pth",
+          "exists": true,
+          "size_bytes": 1793184,
+          "modified_at": "2026-05-27T16:58:08"
+        },
+        "last_full": {
+          "file_name": "binaryconvautoencoder-v4_seed42_last_full.pth",
+          "exists": true,
+          "size_bytes": 2512581,
+          "modified_at": "2026-05-27T16:58:08"
+        },
+        "selected_for_parameter_count_file": "binaryconvautoencoder-v4_seed42_best_full.pth"
+      },
+      "checkpoint_parameter_stats": {
+        "checkpoint_file": {
+          "file_name": "binaryconvautoencoder-v4_seed42_best_full.pth",
+          "exists": true,
+          "size_bytes": 2512581,
+          "modified_at": "2026-05-27T16:58:08"
+        },
+        "available": true,
+        "checkpoint_type": "dict",
+        "checkpoint_epoch": 25,
+        "contains_optimizer_state": true,
+        "model_state_tensors": 27,
+        "model_parameter_count_from_state_dict": 445839,
+        "aux_head_tensors": 4,
+        "aux_head_parameter_count_from_state_dict": 8578,
+        "model_plus_aux_parameter_count": 454417,
+        "sample_tensor_shapes": {
+          "input_lift.weight": [
+            64,
+            3,
+            3,
+            3
+          ],
+          "encoder_cells.0.alpha": [],
+          "encoder_cells.0.beta": [],
+          "encoder_cells.0.template_state": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.0.template_input": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.1.alpha": [],
+          "encoder_cells.1.beta": [],
+          "encoder_cells.1.template_state": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.1.template_input": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.2.alpha": [],
+          "encoder_cells.2.beta": [],
+          "encoder_cells.2.template_state": [
+            64,
+            64,
+            3,
+            3
+          ]
+        },
+        "inferred_latent_channels": 64,
+        "inferred_input_channels": 3,
+        "inferred_encoder_depth": 3,
+        "inferred_decoder_depth": 3
+      },
+      "history": {
+        "history_file": {
+          "file_name": "binaryconvautoencoder-v4_seed42_history.json",
+          "exists": true,
+          "size_bytes": 2492,
+          "modified_at": "2026-05-27T16:58:08"
+        },
+        "available": true,
+        "epochs_recorded": 6,
+        "first_recorded_epoch": 25,
+        "last_recorded_epoch": 30,
+        "last_record": {
+          "epoch": 30,
+          "train_total": 0.13906906064301286,
+          "train_recon": 0.021033648466442654,
+          "train_mask": 0.0,
+          "train_den": 0.005073545057083361,
+          "train_cls": 0.5889086663634557,
+          "train_sym": 0.0,
+          "val_total": 0.13417310267686844,
+          "val_recon": 0.018703362358541323,
+          "val_mask": 0.0,
+          "val_den": 0.004739307832165525,
+          "val_cls": 0.5761638618748763,
+          "val_sym": 0.0
+        },
+        "best_train_total": {
+          "epoch": 25,
+          "value": 0.13578630210030326
+        },
+        "best_train_recon": {
+          "epoch": 25,
+          "value": 0.017441656329953707
+        },
+        "best_train_den": {
+          "epoch": 30,
+          "value": 0.005073545057083361
+        },
+        "best_train_cls": {
+          "epoch": 28,
+          "value": 0.5874946838139781
+        },
+        "best_val_total": {
+          "epoch": 25,
+          "value": 0.1310953243025418
+        },
+        "best_val_recon": {
+          "epoch": 25,
+          "value": 0.01519494262234918
+        },
+        "best_val_den": {
+          "epoch": 30,
+          "value": 0.004739307832165525
+        },
+        "best_val_cls": {
+          "epoch": 30,
+          "value": 0.5761638618748763
+        },
+        "training_time_seconds": null,
+        "training_time_source": "not available in current history JSON",
+        "numeric_keys_seen": [
+          "epoch",
+          "train_cls",
+          "train_den",
+          "train_mask",
+          "train_recon",
+          "train_sym",
+          "train_total",
+          "val_cls",
+          "val_den",
+          "val_mask",
+          "val_recon",
+          "val_sym",
+          "val_total"
+        ]
+      },
+      "reconstruction_loss": {
+        "file": {
+          "file_name": "AE_Recon_Loss_seed42.json",
+          "exists": true,
+          "size_bytes": 330,
+          "modified_at": "2026-06-04T20:55:22"
+        },
+        "data": {
+          "42": {
+            "source_checkpoint_file": "binaryconvautoencoder-v4_seed42_best.pth",
+            "recon_loss_train": 0.017579846459963203,
+            "recon_loss_test": 0.01572268693226165
+          }
+        }
+      },
+      "notes": {
+        "training_time": "Current history JSONs do not contain wall-clock training duration; add epoch timing during training to populate training_time_seconds.",
+        "parameter_count": "Parameter counts are from checkpoint tensors. Trainable parameter count requires model construction with requires_grad flags and is not inferable from a plain state_dict alone."
+      }
+    },
+    {
+      "schema_version": 1,
+      "created_at": "2026-06-11T00:42:33",
+      "version": "Reservoir",
+      "seed": 69,
+      "run_id": "results_seed69",
+      "checkpoint_files": {
+        "best_full": {
+          "file_name": "binaryconvautoencoder-v4_seed69_best_full.pth",
+          "exists": true,
+          "size_bytes": 2513676,
+          "modified_at": "2026-05-27T16:58:28"
+        },
+        "best_partial": {
+          "file_name": "binaryconvautoencoder-v4_seed69_best.pth",
+          "exists": true,
+          "size_bytes": 1793743,
+          "modified_at": "2026-05-27T16:58:28"
+        },
+        "last_full": {
+          "file_name": "binaryconvautoencoder-v4_seed69_last_full.pth",
+          "exists": true,
+          "size_bytes": 2513165,
+          "modified_at": "2026-05-27T16:58:28"
+        },
+        "selected_for_parameter_count_file": "binaryconvautoencoder-v4_seed69_best_full.pth"
+      },
+      "checkpoint_parameter_stats": {
+        "checkpoint_file": {
+          "file_name": "binaryconvautoencoder-v4_seed69_best_full.pth",
+          "exists": true,
+          "size_bytes": 2513676,
+          "modified_at": "2026-05-27T16:58:28"
+        },
+        "available": true,
+        "checkpoint_type": "dict",
+        "checkpoint_epoch": 28,
+        "contains_optimizer_state": true,
+        "model_state_tensors": 27,
+        "model_parameter_count_from_state_dict": 445839,
+        "aux_head_tensors": 4,
+        "aux_head_parameter_count_from_state_dict": 8578,
+        "model_plus_aux_parameter_count": 454417,
+        "sample_tensor_shapes": {
+          "input_lift.weight": [
+            64,
+            3,
+            3,
+            3
+          ],
+          "encoder_cells.0.alpha": [],
+          "encoder_cells.0.beta": [],
+          "encoder_cells.0.template_state": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.0.template_input": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.1.alpha": [],
+          "encoder_cells.1.beta": [],
+          "encoder_cells.1.template_state": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.1.template_input": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.2.alpha": [],
+          "encoder_cells.2.beta": [],
+          "encoder_cells.2.template_state": [
+            64,
+            64,
+            3,
+            3
+          ]
+        },
+        "inferred_latent_channels": 64,
+        "inferred_input_channels": 3,
+        "inferred_encoder_depth": 3,
+        "inferred_decoder_depth": 3
+      },
+      "history": {
+        "history_file": {
+          "file_name": "binaryconvautoencoder-v4_seed69_history.json",
+          "exists": true,
+          "size_bytes": 1344,
+          "modified_at": "2026-05-27T16:58:28"
+        },
+        "available": true,
+        "epochs_recorded": 3,
+        "first_recorded_epoch": 28,
+        "last_recorded_epoch": 30,
+        "last_record": {
+          "epoch": 30,
+          "train_total": 0.17203290700824042,
+          "train_recon": 0.02247839026810817,
+          "train_mask": 0.17447335919702442,
+          "train_den": 0.02262306138624379,
+          "train_cls": 0.5676434445540346,
+          "train_sym": 0.0,
+          "val_total": 0.1633102873789853,
+          "val_recon": 0.017956266044799624,
+          "val_mask": 0.1652435327398366,
+          "val_den": 0.025982544917998642,
+          "val_cls": 0.5550309278841676,
+          "val_sym": 0.0
+        },
+        "best_train_total": {
+          "epoch": 29,
+          "value": 0.17170756147726707
+        },
+        "best_train_recon": {
+          "epoch": 29,
+          "value": 0.022173550825577107
+        },
+        "best_train_den": {
+          "epoch": 30,
+          "value": 0.02262306138624379
+        },
+        "best_train_cls": {
+          "epoch": 30,
+          "value": 0.5676434445540346
+        },
+        "best_val_total": {
+          "epoch": 28,
+          "value": 0.16330656388710285
+        },
+        "best_val_recon": {
+          "epoch": 28,
+          "value": 0.017846172206617633
+        },
+        "best_val_den": {
+          "epoch": 28,
+          "value": 0.02576961126178503
+        },
+        "best_val_cls": {
+          "epoch": 30,
+          "value": 0.5550309278841676
+        },
+        "training_time_seconds": null,
+        "training_time_source": "not available in current history JSON",
+        "numeric_keys_seen": [
+          "epoch",
+          "train_cls",
+          "train_den",
+          "train_mask",
+          "train_recon",
+          "train_sym",
+          "train_total",
+          "val_cls",
+          "val_den",
+          "val_mask",
+          "val_recon",
+          "val_sym",
+          "val_total"
+        ]
+      },
+      "reconstruction_loss": {
+        "file": {
+          "file_name": "AE_Recon_Loss_seed69.json",
+          "exists": true,
+          "size_bytes": 328,
+          "modified_at": "2026-06-05T10:24:41"
+        },
+        "data": {
+          "69": {
+            "source_checkpoint_file": "binaryconvautoencoder-v4_seed69_best.pth",
+            "recon_loss_train": 0.0217787298796704,
+            "recon_loss_test": 0.01898497851115876
+          }
+        }
+      },
+      "notes": {
+        "training_time": "Current history JSONs do not contain wall-clock training duration; add epoch timing during training to populate training_time_seconds.",
+        "parameter_count": "Parameter counts are from checkpoint tensors. Trainable parameter count requires model construction with requires_grad flags and is not inferable from a plain state_dict alone."
+      }
+    },
+    {
+      "schema_version": 1,
+      "created_at": "2026-06-11T00:42:33",
+      "version": "Reservoir",
+      "seed": 123,
+      "run_id": "results_seed123",
+      "checkpoint_files": {
+        "best_full": {
+          "file_name": "binaryconvautoencoder-v4_seed123_best_full.pth",
+          "exists": true,
+          "size_bytes": 2513165,
+          "modified_at": "2026-05-27T16:58:46"
+        },
+        "best_partial": {
+          "file_name": "binaryconvautoencoder-v4_seed123_best.pth",
+          "exists": true,
+          "size_bytes": 1793512,
+          "modified_at": "2026-05-27T16:58:46"
+        },
+        "last_full": {
+          "file_name": "binaryconvautoencoder-v4_seed123_last_full.pth",
+          "exists": true,
+          "size_bytes": 2512581,
+          "modified_at": "2026-05-27T16:58:46"
+        },
+        "selected_for_parameter_count_file": "binaryconvautoencoder-v4_seed123_best_full.pth"
+      },
+      "checkpoint_parameter_stats": {
+        "checkpoint_file": {
+          "file_name": "binaryconvautoencoder-v4_seed123_best_full.pth",
+          "exists": true,
+          "size_bytes": 2513165,
+          "modified_at": "2026-05-27T16:58:46"
+        },
+        "available": true,
+        "checkpoint_type": "dict",
+        "checkpoint_epoch": 30,
+        "contains_optimizer_state": true,
+        "model_state_tensors": 27,
+        "model_parameter_count_from_state_dict": 445839,
+        "aux_head_tensors": 4,
+        "aux_head_parameter_count_from_state_dict": 8578,
+        "model_plus_aux_parameter_count": 454417,
+        "sample_tensor_shapes": {
+          "input_lift.weight": [
+            64,
+            3,
+            3,
+            3
+          ],
+          "encoder_cells.0.alpha": [],
+          "encoder_cells.0.beta": [],
+          "encoder_cells.0.template_state": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.0.template_input": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.1.alpha": [],
+          "encoder_cells.1.beta": [],
+          "encoder_cells.1.template_state": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.1.template_input": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "encoder_cells.2.alpha": [],
+          "encoder_cells.2.beta": [],
+          "encoder_cells.2.template_state": [
+            64,
+            64,
+            3,
+            3
+          ]
+        },
+        "inferred_latent_channels": 64,
+        "inferred_input_channels": 3,
+        "inferred_encoder_depth": 3,
+        "inferred_decoder_depth": 3
+      },
+      "history": {
+        "history_file": {
+          "file_name": "binaryconvautoencoder-v4_seed123_history.json",
+          "exists": true,
+          "size_bytes": 827,
+          "modified_at": "2026-05-27T16:58:46"
+        },
+        "available": true,
+        "epochs_recorded": 2,
+        "first_recorded_epoch": 29,
+        "last_recorded_epoch": 30,
+        "last_record": {
+          "epoch": 30,
+          "train_total": 0.15183414507778886,
+          "train_recon": 0.02904222068827301,
+          "train_mask": 0.0,
+          "train_den": 0.03409155636738422,
+          "train_cls": 0.6054367229828849,
+          "train_sym": 0.0,
+          "val_total": 0.14385850897123073,
+          "val_recon": 0.02362047680493059,
+          "val_mask": 0.0,
+          "val_den": 0.03398143573310868,
+          "val_cls": 0.5926947893767521,
+          "val_sym": 0.0
+        },
+        "best_train_total": {
+          "epoch": 30,
+          "value": 0.15183414507778886
+        },
+        "best_train_recon": {
+          "epoch": 30,
+          "value": 0.02904222068827301
+        },
+        "best_train_den": {
+          "epoch": 30,
+          "value": 0.03409155636738422
+        },
+        "best_train_cls": {
+          "epoch": 30,
+          "value": 0.6054367229828849
+        },
+        "best_val_total": {
+          "epoch": 30,
+          "value": 0.14385850897123073
+        },
+        "best_val_recon": {
+          "epoch": 29,
+          "value": 0.023598679951552688
+        },
+        "best_val_den": {
+          "epoch": 30,
+          "value": 0.03398143573310868
+        },
+        "best_val_cls": {
+          "epoch": 30,
+          "value": 0.5926947893767521
+        },
+        "training_time_seconds": null,
+        "training_time_source": "not available in current history JSON",
+        "numeric_keys_seen": [
+          "epoch",
+          "train_cls",
+          "train_den",
+          "train_mask",
+          "train_recon",
+          "train_sym",
+          "train_total",
+          "val_cls",
+          "val_den",
+          "val_mask",
+          "val_recon",
+          "val_sym",
+          "val_total"
+        ]
+      },
+      "reconstruction_loss": {
+        "file": {
+          "file_name": "AE_Recon_Loss_seed123.json",
+          "exists": true,
+          "size_bytes": 333,
+          "modified_at": "2026-06-04T22:27:05"
+        },
+        "data": {
+          "123": {
+            "source_checkpoint_file": "binaryconvautoencoder-v4_seed123_best.pth",
+            "recon_loss_train": 0.029288859286232236,
+            "recon_loss_test": 0.02464739717543125
+          }
+        }
+      },
+      "notes": {
+        "training_time": "Current history JSONs do not contain wall-clock training duration; add epoch timing during training to populate training_time_seconds.",
+        "parameter_count": "Parameter counts are from checkpoint tensors. Trainable parameter count requires model construction with requires_grad flags and is not inferable from a plain state_dict alone."
+      }
+    }
+  ]
+}
